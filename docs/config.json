@@ -1,0 +1,40 @@
+{
+    "title": "LAZ",
+    "tagline": "The Open Source Social Media",
+    "author": "Rudy Jessop",
+    "image": "app.png",
+    "ignore": {
+            "files": ["Work_In_Progress.md"],
+            "folders": ["99_Not_Ready"]
+    },
+    "format":"html",
+    "live": {
+        "clean_urls": true
+    },
+    "timezone":"America/New_York",
+    "language":{
+        "en":"English",
+        "es":"Spanish"
+    },
+    "html": {
+        "theme": "daux-red",
+        "breadcrumbs": true,
+        "breadcrumb_separator": "Chevrons",
+        "toggle_code": true,
+        "date_modified": true,
+        "float": true,
+        "inherit_index": true,
+        "auto_toc":"true",
+
+        "repo": "Core-Tech-Labs/LAZ",
+        "edit_on_github": "ctlpages/laz-docs/blob/master/docs",
+        "twitter": ["mr_jessop"],
+        "google_analytics": "UA-12653604-10",
+        "links": {
+            "Download": "https://github.com/Core-Tech-Labs/LAZ/archive/master.zip",
+            "GitHub Repo": "https://github.com/Core-Tech-Labs/LAZ",
+            "Help/Support/Bugs": "https://github.com/Core-Tech-Labs/LAZ/issues",
+            "Made by Core Tech Labs": "http://ctlabs.net"
+        }
+    }
+}
