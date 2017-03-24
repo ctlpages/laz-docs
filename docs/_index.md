@@ -5,31 +5,6 @@
 </p>
 
 <hr/>
-<h3 style="text-align: center;">Features</h3>
-
-<div class=row>
-<div class=col-third>
-
-#### System Administrators
-
-* [Up and running in 5 minutes](01_Features/Navigation_and_Sorting.md)
-* [Multiple implemented social features](01_Features/Internal_links.md)
-* [Easy to set up on Apache or nginx](01_Features/GitHub_Flavored_Markdown.md)
-
-</div>
-<div class=col-third>
-
-#### For Developers
-
-* Uses Laravel and symfony packages
-* Easily create API's for exernal or internal useage.
-
-</div>
-</div>
-
-<h2 style="text-align:center">Built with PHP, Laravel and composer you can easily add packages for best functionality</h2>
-
-<hr/>
 
 <!-- Google Code -->
 <script type="text/javascript">
