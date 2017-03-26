@@ -65,7 +65,7 @@ List of extension that are currently needed for LAZ:
 
 ### Redis
 
-For your users to populate their news feed you would need to install redis-server`
+For your users to populate their news feed you would need to install `redis-server`
 
 check if its installed
 
