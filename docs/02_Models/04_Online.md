@@ -4,6 +4,8 @@ The Online model uses user sessions to capture their last activity. Its a beauti
 
 ### Declared Methods
 
+#### scopeOnlineUsers
+
 `scopeOnlineUsers` list users with latest activity.
 
  - Arguement 2 accepts an integer timelimit.
@@ -11,6 +13,8 @@ The Online model uses user sessions to capture their last activity. Its a beauti
 ```php
 public function scopeOnlineUsers($query, $timeLimit = 10)
 ```
+
+#### scopeRegistered
 
 `scopeRegistered` returns registered users with latest activity.
 
@@ -20,6 +24,7 @@ public function scopeOnlineUsers($query, $timeLimit = 10)
 public function scopeRegistered($query, $timeLimit = 10)
 ```
 
+#### scopeUpdatedIdleUser
 `scopeUpdateIdleUser` updates idle user `last_activity` value
 
 ```php
@@ -27,6 +32,8 @@ public function scopeUpdateIdleUser($query)
 ```
 
 ### Relational Models
+
+#### user
 
 `user` parent Model
 

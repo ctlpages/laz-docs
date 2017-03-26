@@ -5,6 +5,7 @@
 
 ### Relational Models
 
+#### user
 `user` parent model
 
 ```php
@@ -15,6 +16,15 @@ public function user(){
 
 ### Declared Methods
 
+#### scopeImages
+`scopeImages` returns all users images based on their user_id
+
+```php
+public function scopeImages($query)
+```
+
+
+#### UsersUploadedImages
 `UsersUploadedImages` uploades and renames users images.
 
 - Arguement 1 is an `laravel\framework\Illuminate\Http\Uploaded` class
@@ -25,6 +35,7 @@ public function UserProfilePicture(UploadedFile $file, User $user)
 ```
 
 
+#### UserProfilePicture
 `UserProfilePicture` uploads and renames users default profile picture.
 
 - Arguement 1 is an `laravel\framework\Illuminate\Http\Uploaded` class

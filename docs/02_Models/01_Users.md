@@ -6,26 +6,30 @@ The User model is considered the base model seeing that the application revolves
 
 ### Declared Methods
 
+#### setDobAttribute
 `setDobAttribute` responsible for converting `_dob` value into unix format. (`setDobAttribute` comes with an `$dob` arguement)
 
 ```php
 protected function setDobAttribute($dob)
 ```
-
+#### getAge
 `getAge` responsible for calculating users age
 
 ```php
 protected function getAge()
 ```
+#### scopeUsername
+`scopeUsername` returns user value based on `username` search
 
-`scopeUsername` info comming soon
+- Arguement 2 accepts the searched username value.
 
 ```php
-public function scopeUsername($query)
+public function scopeUsername($query, $value)
 ```
 
 ### Relational Models
 
+#### userData
  - `userData` Has One ORM relationship (an extended model for holding additional user information).
 
 ```php
@@ -34,6 +38,7 @@ public function userData(){
 }
 ```
 
+#### usersPhotos
  - `usersPhotos` Has Many ORM relationship.
 
 ```php
@@ -42,6 +47,7 @@ public function usersPhotos(){
 }
 ```
 
+#### online
  - `online` Has One ORM relationship.
 
 ```php

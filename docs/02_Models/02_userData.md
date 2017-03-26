@@ -8,6 +8,7 @@ The `userData` model is a `belongTo`:`user` eloquent model. An additional user m
 
 ### Relational Models
 
+#### user
  - `user` parent Model
 
 ```php
