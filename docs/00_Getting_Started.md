@@ -16,12 +16,12 @@ It also assumes you:
 
 
 ```bash
-composer create-project --prefer-dist ctl/laz <name-of-project>
+$ composer create-project --prefer-dist ctl/laz <name-of-project>
 ```
 You can also download it from Github master branch
 
 ```bash
-git clone https://github.com/Core-Tech-Labs/LAZ <name-of-project>
+$ git clone https://github.com/Core-Tech-Labs/LAZ <name-of-project>
 
 ```
 
@@ -30,7 +30,7 @@ git clone https://github.com/Core-Tech-Labs/LAZ <name-of-project>
 Once the project is on your machine you would need to run
 
 ``` bash
-composer install
+$ composer install
 
 ```
 
@@ -41,7 +41,7 @@ To successfully run LAZ we advise you use a Virtual Machine (vagrant) or an Inst
 SSH into VM or Instance, navigate to project root (most likely `/var/www`) run
 
 ```bash
-php artisan migrate
+$ php artisan migrate
 
 ```
 
@@ -81,14 +81,14 @@ if given
 ```
 
 ```bash
-sudo apt-get install redis-server
+$ sudo apt-get install redis-server
 ```
 
 ie: To learn more about [redis](http://redis.io) and [installing tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis)
 
 ## Demos
 
-If you are currently using LAZ Framework and want to be featured please email [info@ctlabs.net](info@ctlabs.net)
+If you are currently using LAZ Framework and want to be featured please email [mailto:info@ctlabs.net](info@ctlabs.net)
 
 
 ## Support
