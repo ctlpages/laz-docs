@@ -4,15 +4,6 @@ The Online model uses user sessions to capture their last activity. Its a beauti
 
 ### Declared Methods
 
-#### scopeOnlineUsers
-
-`scopeOnlineUsers` list users with latest activity.
-
- - Arguement 2 accepts an integer timelimit.
-
-```php
-public function scopeOnlineUsers($query, $timeLimit = 10)
-```
 
 #### scopeRegistered
 
